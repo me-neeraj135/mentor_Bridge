@@ -1,0 +1,111 @@
+.service2_caller_imgBox {
+  width: 233px;
+  height: 186px;
+}
+.connet_pay {
+  display: flex;
+  justify-content: flex-end;
+  /* border: 1px solid; */
+}
+.connet_pay > button {
+  font-family: Inter;
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: capitalize;
+  border-radius: 23px;
+  color: white;
+  padding: 0.6rem 1rem;
+  border: none;
+  background-color: #047e70;
+}
+.servies2OptWrapper {
+  width: 44%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: capitalize;
+  color: white;
+  /* border-radius: 23px; */
+}
+.serviceForm {
+  width: 677px;
+  margin-top: 1rem;
+  /* border: 1px solid; */
+}
+.label {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  text-transform: capitalize;
+}
+.serviceForm > input {
+  width: 100%;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: capitalize;
+  color: #949090;
+  border-radius: 14px;
+  border: 1px solid gray;
+
+  padding: 1rem;
+  margin: 0.5rem 0 1.5rem 0;
+}
+.amount_suggestion_box {
+  display: flex;
+  justify-content: space-between;
+}
+.amount_suggestion_box > input {
+  width: 48%;
+
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  border-radius: 14px;
+  border: 1px solid gray;
+  margin: 0.5rem 0 1.5rem 0;
+
+  padding: 1rem;
+}
+.amount_suggestion_box > input::placeholder {
+  text-transform: capitalize;
+  color: black;
+}
+.serviceForm > div > input {
+  width: 48%;
+
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  border-radius: 14px;
+  border: 1px solid gray;
+  margin: 0.5rem 0 1.5rem 0;
+
+  padding: 1rem;
+}
+.addService2BtnBox {
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid yellowgreen; */
+}

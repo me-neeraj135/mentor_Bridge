@@ -1,0 +1,73 @@
+.servicesContainer {
+  width: 150%;
+  padding-left: 3.5rem;
+  padding-top: 3.5rem;
+}
+h1 {
+  font-family: Inter;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: capitalize;
+}
+.serviceOpt_imgBox {
+  /* border: 1px solid red; */
+}
+
+.serviesOptWrapper {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3rem;
+  /* border: 1px solid; */
+}
+.serviceOPt {
+  display: flex;
+  align-items: center;
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: capitalize;
+  color: white;
+  background-color: #d9d9d9;
+  padding: 0.7rem 1.5rem;
+  border-radius: 23px;
+}
+.serviceOPt:hover {
+  background-color: #047e70;
+}
+.caller_imgBox {
+  /* border: 1px solid green; */
+  width: 570px;
+  height: 456px;
+  margin-top: 2rem;
+  margin-left: 6rem;
+}
+.addServiceBtnBox {
+  width: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.addServiceBtn {
+  display: flex;
+  align-items: center;
+  font-family: Inter;
+  font-size: 27px;
+  font-weight: 500;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: capitalize;
+  color: white;
+  border: none;
+  margin-top: 0.5rem;
+  padding: 0.5rem 2rem;
+  border-radius: 23px;
+  background: linear-gradient(180deg, #27edd5 0%, #358279 100%);
+}

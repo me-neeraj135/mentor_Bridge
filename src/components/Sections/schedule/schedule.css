@@ -1,0 +1,71 @@
+h1 {
+  font-family: Inter;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: capitalize;
+}
+h2 {
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 13px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: capitalize;
+  margin-top: 1rem;
+  /* margin-bottom: 1rem; */
+}
+.scheduleContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 125%;
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+}
+.scheduleWrapContainer {
+  width: 386px;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+.calanderBox {
+  width: 471px;
+  height: 375px;
+  border-radius: 22px;
+  margin-top: 2rem;
+  border: none;
+  background-color: #7be2c3;
+  box-shadow: 4px 4px 4px 0;
+}
+
+.scheduleWrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: none;
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 0px 5px 5px gray;
+}
+.scheduleWrap > input {
+  width: 15px;
+}
+.scheduleDetail {
+  font-family: Inter;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 13px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.scheduleWrap > p {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+}
+.scheduleWrap > p > span {
+  flex-direction: column;
+}
